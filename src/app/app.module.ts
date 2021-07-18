@@ -9,6 +9,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatedifferencePipe } from './datedifference.pipe';
 import { DateDifferencePipe } from './date-difference.pipe';
 import { DatediffererncePipe } from './DateDifference/datedifferernce.pipe';
+import { HighlighterDirective } from './Directives/highlighter.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DatediffererncePipe } from './DateDifference/datedifferernce.pipe';
     QuoteDetailsComponent,
     DatedifferencePipe,
     DateDifferencePipe,
-    DatediffererncePipe
+    DatediffererncePipe,
+    HighlighterDirective
   ],
   imports: [
     BrowserModule,
