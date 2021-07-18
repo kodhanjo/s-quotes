@@ -7,6 +7,8 @@ import { MainQuoteComponent } from './main-quote/main-quote.component';
 import { AddQuoteComponent } from './add-quote/add-quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { DatedifferencePipe } from './datedifference.pipe';
+import { DateDifferencePipe } from './date-difference.pipe';
+import { DatediffererncePipe } from './DateDifference/datedifferernce.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { DatedifferencePipe } from './datedifference.pipe';
     MainQuoteComponent,
     AddQuoteComponent,
     QuoteDetailsComponent,
-    DatedifferencePipe
+    DatedifferencePipe,
+    DateDifferencePipe,
+    DatediffererncePipe
   ],
   imports: [
     BrowserModule,
