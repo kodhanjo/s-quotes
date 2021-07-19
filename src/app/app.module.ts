@@ -3,15 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainQuoteComponent } from './main-quote/main-quote.component';
-import { AddQuoteComponent } from './add-quote/add-quote.component';
-import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { HighlighterDirective } from './Directives/highlighter.directive';
-import { GetDatePipe } from './get-date.pipe';
-
+import { QuotesAddComponent } from './quotes-add/quotes-add.component';
+import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
+import { QuotesMainComponent } from './quotes-main/quotes-main.component';
+import { DateDifferencePipe } from './PipeDifference/date-difference.pipe';
+import { HighlighterDirective } from './Highlighter/highlighter.directive';
 @NgModule({
   declarations: [
     AppComponent,
+    QuotesAddComponent,
+    QuotesDetailsComponent,
+    QuotesMainComponent,
+    DateDifferencePipe,
+    HighlighterDirective,
     ],
   imports: [
     BrowserModule,
