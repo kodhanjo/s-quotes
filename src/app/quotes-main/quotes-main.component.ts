@@ -45,7 +45,7 @@ export class QuotesMainComponent implements OnInit {
         'Felix Osambo.',
         element.quote,
         element.author,
-        moment('2009-10-10')
+        moment('2020-10-10')
       )
     )
   );
