@@ -9,6 +9,8 @@
 .card-header{
     text-align: center;
     font-size: large;
+    width: 500px;
+    margin: auto;
     /* color: ivory; */
 }
 .form-group{
@@ -16,11 +18,11 @@ align-items: center;
 text-align: center;
 padding: 5px;
 }
-/* .btn btn-primary{
+.btn btn-primary{
 align-items: center;
 text-align: center;
 height: 100px;
 width: 50px;
 background-color: rgb(26, 175, 83);
-padding: 5px; */
-/* } */
+padding: 5px;
+}
