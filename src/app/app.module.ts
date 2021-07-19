@@ -6,22 +6,13 @@ import { AppComponent } from './app.component';
 import { MainQuoteComponent } from './main-quote/main-quote.component';
 import { AddQuoteComponent } from './add-quote/add-quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
-import { DatedifferencePipe } from './datedifference.pipe';
-import { DateDifferencePipe } from './date-difference.pipe';
-import { DatediffererncePipe } from './DateDifference/datedifferernce.pipe';
 import { HighlighterDirective } from './Directives/highlighter.directive';
+import { GetDatePipe } from './get-date.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainQuoteComponent,
-    AddQuoteComponent,
-    QuoteDetailsComponent,
-    DatedifferencePipe,
-    DateDifferencePipe,
-    DatediffererncePipe,
-    HighlighterDirective
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
