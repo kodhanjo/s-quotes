@@ -12,9 +12,9 @@ export class QuotesAddComponent implements OnInit {
   }
   
   @Output() emitQuote = new EventEmitter();
-  quote: string;
-  username: string;
-  author: string;
+  quote!: string;
+  username!: string;
+  author!: string;
   newQuote: any;
 
   submitQuote(): void {

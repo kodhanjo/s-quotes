@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Quotes } from '../Boilerplates/Quote'
 @Component({
   selector: 'app-quotes-details',
@@ -8,7 +8,7 @@ import { Quotes } from '../Boilerplates/Quote'
 export class QuotesDetailsComponent implements OnInit {
 
   constructor() { }
-  @Input() quote: Quotes;
+  @Input() quote!: Quotes;
   ngOnInit(): void {
   }
 
